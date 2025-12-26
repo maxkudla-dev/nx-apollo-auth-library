@@ -6,7 +6,7 @@ import { signIn } from './signIn';
 import { signUp } from './signUp';
 import { updateProfile } from './updateProfile';
 
-export type { AuthGraphQLContext } from '@/utils/src/auth-context';
+export type { AuthGraphQLContext } from './../utils/auth-context';
 
 export const authResolvers = {
   Query: {

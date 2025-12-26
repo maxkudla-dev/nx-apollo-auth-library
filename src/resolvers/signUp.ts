@@ -2,7 +2,7 @@ import { Account } from '../entities/account';
 import { Profile } from '../entities/profile';
 import { createAccessToken } from '../utils/jwt';
 import { hashPassword } from '../utils/password';
-import type { AuthGraphQLContext } from '@/utils/src/auth-context';
+import type { AuthGraphQLContext } from './../utils/auth-context';
 
 type SignUpArgs = {
   username: string;

@@ -1,6 +1,6 @@
 import { Account } from '../entities/account';
 import { hashPassword } from '../utils/password';
-import type { AuthGraphQLContext } from '@/utils/src/auth-context';
+import type { AuthGraphQLContext } from './../utils/auth-context';
 
 type ResetPasswordArgs = {
   username: string;

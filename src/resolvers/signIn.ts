@@ -1,7 +1,7 @@
 import { Account } from '../entities/account';
 import { createAccessToken } from '../utils/jwt';
 import { hashPassword, isHashedPassword, verifyPassword } from '../utils/password';
-import type { AuthGraphQLContext } from '@/utils/src/auth-context';
+import type { AuthGraphQLContext } from './../utils/auth-context';
 
 type SignInArgs = {
   username: string;

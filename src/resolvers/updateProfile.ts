@@ -1,5 +1,5 @@
 import { Profile } from '../entities/profile';
-import type { AuthGraphQLContext } from '@/utils/src/auth-context';
+import type { AuthGraphQLContext } from './../utils/auth-context';
 
 type UpdateProfileArgs = {
   email: string;
