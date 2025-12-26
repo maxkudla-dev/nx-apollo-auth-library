@@ -1,0 +1,6 @@
+{
+  "name": "nx-apollo-auth-library",
+  "projectType": "library",
+  "sourceRoot": "libs/apollo-auth/src",
+  "targets": {}
+}
