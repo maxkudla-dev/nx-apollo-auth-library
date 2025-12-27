@@ -1,0 +1,9 @@
+{
+  "name": "nx-apollo-auth-library",
+  "version": "0.0.0",
+  "peerDependencies": {
+    "@apollo/server": "^4.0.0",
+    "graphql": "^16.0.0",
+    "typeorm": "^0.3.0"
+  }
+}
